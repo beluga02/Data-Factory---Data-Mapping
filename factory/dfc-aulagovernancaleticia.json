@@ -1,0 +1,9 @@
+{
+	"name": "dfc-aulagovernancaleticia",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4e76d990-453b-4e9d-8e56-a54cc0df08f3",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
