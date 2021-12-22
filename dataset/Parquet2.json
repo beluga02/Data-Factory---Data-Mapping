@@ -1,5 +1,5 @@
 {
-	"name": "Parquet4",
+	"name": "Parquet2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "cliente.parquet",
 				"folderPath": "sekila",
 				"fileSystem": "ingestion"
 			},

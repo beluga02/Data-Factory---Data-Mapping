@@ -1,0 +1,15 @@
+{
+	"name": "AzureMySqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureMySqlSakila",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "cliente"
+		}
+	}
+}
