@@ -5,11 +5,19 @@
 			"referenceName": "MySqlCarloca",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "MySqlTable",
 		"schema": [],
 		"typeProperties": {
-			"tableName": "`loc_pedido_locacao`"
+			"tableName": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
